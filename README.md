@@ -10,4 +10,4 @@ Enjoy the mod! You can download it in the mod's [releases](https://github.com/Bl
 
 Hey! if you feel adventurous today, copy the workspace here and customize the mod to what **you** want. After all, I did put this on [GiHub](https://github.com/)
 
-### NOTE: This is a repo for remote workspace on mcreator 2021.3. I won't be accepting any pull requests here. :(
+### NOTE: This is a repo for remote workspace on MCreator 2021.3. I won't be accepting any pull requests here. :(

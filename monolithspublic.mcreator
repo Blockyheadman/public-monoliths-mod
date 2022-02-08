@@ -550,8 +550,8 @@
   "language_map": {
     "en_us": {
       "item.monoliths.binding_stone": "Binding Stone",
-      "advancements.part_of_a_whole.descr": "Only part of what it can do..",
       "advancements.the_lost_shrine.title": "The Lost Shrine...",
+      "advancements.part_of_a_whole.descr": "Only part of what it can do..",
       "block.monoliths.activated_gem_slot": "Activated Gem Slot",
       "block.monolithspublic.monolith_stair": "Monolith Stair",
       "advancements.the_lost_staff.title": "The Lost Staff",

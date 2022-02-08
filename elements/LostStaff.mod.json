@@ -6,11 +6,9 @@
     "texture": "loststaff",
     "customModelName": "loststaff:default",
     "name": "Lost Staff",
-    "specialInfo": [
-      "Făcut din cioburi ale unei bijuterii pierdute..."
-    ],
+    "specialInfo": [],
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "CUSTOM:MonolithsTab"
     },
     "toolType": "Sword",
     "harvestLevel": 1,

@@ -34,15 +34,13 @@
       }
     ],
     "name": "Monolith Stair",
-    "specialInfo": [
-      "O piatră veche... Destul de inutilă..."
-    ],
+    "specialInfo": [],
     "hardness": 15.0,
     "resistance": 25.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "CUSTOM:MonolithsTab"
     },
     "destroyTool": "pickaxe",
     "customDrop": {

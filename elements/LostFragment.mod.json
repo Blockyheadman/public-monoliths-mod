@@ -8,7 +8,7 @@
     "name": "Lost Fragment",
     "rarity": "RARE",
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "CUSTOM:MonolithsTab"
     },
     "stackSize": 64,
     "enchantability": 0,
@@ -24,9 +24,7 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [
-      "Doar un fragment din puterea sa..."
-    ],
+    "specialInfo": [],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,

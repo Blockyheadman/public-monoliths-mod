@@ -33,9 +33,7 @@
       }
     ],
     "name": "Activated Gem Slot",
-    "specialInfo": [
-      "Puterea emisă este atât de puternică, încât emite o lumină frumoasă din interior."
-    ],
+    "specialInfo": [],
     "hardness": 20.0,
     "resistance": 50.0,
     "hasGravity": false,

@@ -31,8 +31,8 @@ public class ModCreditsGuiWindow extends ContainerScreen<ModCreditsGui.GuiContai
 		this.y = container.y;
 		this.z = container.z;
 		this.entity = container.entity;
-		this.xSize = 290;
-		this.ySize = 149;
+		this.xSize = 230;
+		this.ySize = 100;
 	}
 
 	private static final ResourceLocation texture = new ResourceLocation("monolithspublic:textures/mod_credits.png");
@@ -55,7 +55,7 @@ public class ModCreditsGuiWindow extends ContainerScreen<ModCreditsGui.GuiContai
 		this.blit(ms, k, l, 0, 0, this.xSize, this.ySize, this.xSize, this.ySize);
 
 		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("monolithspublic:textures/lostgem.png"));
-		this.blit(ms, this.guiLeft + 2, this.guiTop + 2, 0, 0, 64, 64, 64, 64);
+		this.blit(ms, this.guiLeft + 7, this.guiTop + 18, 0, 0, 64, 64, 64, 64);
 
 		RenderSystem.disableBlend();
 	}
@@ -76,9 +76,8 @@ public class ModCreditsGuiWindow extends ContainerScreen<ModCreditsGui.GuiContai
 
 	@Override
 	protected void drawGuiContainerForegroundLayer(MatrixStack ms, int mouseX, int mouseY) {
-		this.font.drawString(ms, "Monoliths Mod | For Veia SMP", 72, 17, -12829636);
-		this.font.drawString(ms, "Made By: Blockyheadman", 72, 37, -12829636);
-		this.font.drawString(ms, "Thanks for all the support on this server!", 37, 87, -12829636);
+		this.font.drawString(ms, "Monoliths Mod", 82, 33, -12829636);
+		this.font.drawString(ms, "Made By: Blockyheadman", 82, 53, -12829636);
 	}
 
 	@Override

@@ -4,8 +4,6 @@ package net.mcreator.monolithspublic.item;
 import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.world.World;
-import net.minecraft.util.text.StringTextComponent;
-import net.minecraft.util.text.ITextComponent;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.SwordItem;
 import net.minecraft.item.ItemStack;
@@ -13,15 +11,14 @@ import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.LivingEntity;
-import net.minecraft.client.util.ITooltipFlag;
 
 import net.mcreator.monolithspublic.procedures.LostStaffHitEntityProcedure;
 import net.mcreator.monolithspublic.procedures.LostStaffCraftedProcedure;
+import net.mcreator.monolithspublic.itemgroup.MonolithsTabItemGroup;
 import net.mcreator.monolithspublic.MonolithspublicModElements;
 
 import java.util.stream.Stream;
 import java.util.Map;
-import java.util.List;
 import java.util.HashMap;
 import java.util.AbstractMap;
 
@@ -31,7 +28,7 @@ public class LostStaffItem extends MonolithspublicModElements.ModElement {
 	public static final Item block = null;
 
 	public LostStaffItem(MonolithspublicModElements instance) {
-		super(instance, 15);
+		super(instance, 4);
 	}
 
 	@Override
@@ -60,13 +57,7 @@ public class LostStaffItem extends MonolithspublicModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(LostFragmentItem.block));
 			}
-		}, 3, -3f, new Item.Properties().group(null).isImmuneToFire()) {
-			@Override
-			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
-				super.addInformation(itemstack, world, list, flag);
-				list.add(new StringTextComponent("F\u00C4\u0192cut din cioburi ale unei bijuterii pierdute..."));
-			}
-
+		}, 3, -3f, new Item.Properties().group(MonolithsTabItemGroup.tab).isImmuneToFire()) {
 			@Override
 			public void onCreated(ItemStack itemstack, World world, PlayerEntity entity) {
 				super.onCreated(itemstack, world, entity);

@@ -3,13 +3,9 @@ package net.mcreator.monolithspublic.block;
 
 import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.common.ToolType;
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.World;
 import net.minecraft.world.IBlockReader;
-import net.minecraft.util.text.StringTextComponent;
-import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.math.BlockRayTraceResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Hand;
@@ -20,13 +16,13 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.monolithspublic.procedures.ActivateDeactivatedSlotProcedure;
+import net.mcreator.monolithspublic.itemgroup.MonolithsTabItemGroup;
 import net.mcreator.monolithspublic.MonolithspublicModElements;
 
 import java.util.stream.Stream;
@@ -42,13 +38,14 @@ public class DeactivatedGemSlotBlock extends MonolithspublicModElements.ModEleme
 	public static final Block block = null;
 
 	public DeactivatedGemSlotBlock(MonolithspublicModElements instance) {
-		super(instance, 1);
+		super(instance, 2);
 	}
 
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(null)).setRegistryName(block.getRegistryName()));
+		elements.items
+				.add(() -> new BlockItem(block, new Item.Properties().group(MonolithsTabItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 
 	public static class CustomBlock extends Block {
@@ -56,13 +53,6 @@ public class DeactivatedGemSlotBlock extends MonolithspublicModElements.ModEleme
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(15f, 10f).setLightLevel(s -> 0).harvestLevel(3)
 					.harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("deactivated_gem_slot");
-		}
-
-		@Override
-		@OnlyIn(Dist.CLIENT)
-		public void addInformation(ItemStack itemstack, IBlockReader world, List<ITextComponent> list, ITooltipFlag flag) {
-			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("pare a fi distrus..."));
 		}
 
 		@Override

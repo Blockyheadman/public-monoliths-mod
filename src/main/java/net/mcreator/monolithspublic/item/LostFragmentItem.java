@@ -3,18 +3,13 @@ package net.mcreator.monolithspublic.item;
 
 import net.minecraftforge.registries.ObjectHolder;
 
-import net.minecraft.world.World;
-import net.minecraft.util.text.StringTextComponent;
-import net.minecraft.util.text.ITextComponent;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
-import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.block.BlockState;
 
+import net.mcreator.monolithspublic.itemgroup.MonolithsTabItemGroup;
 import net.mcreator.monolithspublic.MonolithspublicModElements;
-
-import java.util.List;
 
 @MonolithspublicModElements.ModElement.Tag
 public class LostFragmentItem extends MonolithspublicModElements.ModElement {
@@ -22,7 +17,7 @@ public class LostFragmentItem extends MonolithspublicModElements.ModElement {
 	public static final Item block = null;
 
 	public LostFragmentItem(MonolithspublicModElements instance) {
-		super(instance, 3);
+		super(instance, 7);
 	}
 
 	@Override
@@ -32,7 +27,7 @@ public class LostFragmentItem extends MonolithspublicModElements.ModElement {
 
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(null).maxStackSize(64).isImmuneToFire().rarity(Rarity.RARE));
+			super(new Item.Properties().group(MonolithsTabItemGroup.tab).maxStackSize(64).isImmuneToFire().rarity(Rarity.RARE));
 			setRegistryName("lost_fragment");
 		}
 
@@ -49,12 +44,6 @@ public class LostFragmentItem extends MonolithspublicModElements.ModElement {
 		@Override
 		public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
 			return 1F;
-		}
-
-		@Override
-		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
-			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("Doar un fragment din puterea sa..."));
 		}
 	}
 }

@@ -5,18 +5,13 @@ import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
-import net.minecraft.world.World;
-import net.minecraft.util.text.StringTextComponent;
-import net.minecraft.util.text.ITextComponent;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
-import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.block.BlockState;
 
+import net.mcreator.monolithspublic.itemgroup.MonolithsTabItemGroup;
 import net.mcreator.monolithspublic.MonolithspublicModElements;
-
-import java.util.List;
 
 @MonolithspublicModElements.ModElement.Tag
 public class LostGemItem extends MonolithspublicModElements.ModElement {
@@ -24,7 +19,7 @@ public class LostGemItem extends MonolithspublicModElements.ModElement {
 	public static final Item block = null;
 
 	public LostGemItem(MonolithspublicModElements instance) {
-		super(instance, 2);
+		super(instance, 5);
 	}
 
 	@Override
@@ -34,7 +29,7 @@ public class LostGemItem extends MonolithspublicModElements.ModElement {
 
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(null).maxStackSize(64).isImmuneToFire().rarity(Rarity.EPIC));
+			super(new Item.Properties().group(MonolithsTabItemGroup.tab).maxStackSize(64).isImmuneToFire().rarity(Rarity.EPIC));
 			setRegistryName("lost_gem");
 		}
 
@@ -57,13 +52,6 @@ public class LostGemItem extends MonolithspublicModElements.ModElement {
 		@OnlyIn(Dist.CLIENT)
 		public boolean hasEffect(ItemStack itemstack) {
 			return true;
-		}
-
-		@Override
-		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
-			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent(
-					"Aceast\u00C4\u0192 bijuterie de\u00C8\u203Aine o putere pe care nimeni nu o va vedea vreodat\u00C4\u0192..."));
 		}
 	}
 }

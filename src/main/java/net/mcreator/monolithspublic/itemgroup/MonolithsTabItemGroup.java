@@ -7,29 +7,29 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 
-import net.mcreator.monolithspublic.item.DevelopmentDisc1Item;
+import net.mcreator.monolithspublic.item.LostGemItem;
 import net.mcreator.monolithspublic.MonolithspublicModElements;
 
 @MonolithspublicModElements.ModElement.Tag
-public class DevelopmentDiscsItemGroup extends MonolithspublicModElements.ModElement {
-	public DevelopmentDiscsItemGroup(MonolithspublicModElements instance) {
-		super(instance, 37);
+public class MonolithsTabItemGroup extends MonolithspublicModElements.ModElement {
+	public MonolithsTabItemGroup(MonolithspublicModElements instance) {
+		super(instance, 42);
 	}
 
 	@Override
 	public void initElements() {
-		tab = new ItemGroup("tabdevelopment_discs") {
+		tab = new ItemGroup("tabmonoliths_tab") {
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(DevelopmentDisc1Item.block);
+				return new ItemStack(LostGemItem.block);
 			}
 
 			@OnlyIn(Dist.CLIENT)
 			public boolean hasSearchBar() {
-				return true;
+				return false;
 			}
-		}.setBackgroundImageName("item_search.png");
+		};
 	}
 
 	public static ItemGroup tab;

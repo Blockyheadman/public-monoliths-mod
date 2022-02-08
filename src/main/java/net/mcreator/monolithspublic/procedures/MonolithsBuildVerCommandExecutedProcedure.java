@@ -18,7 +18,7 @@ public class MonolithsBuildVerCommandExecutedProcedure {
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		if (entity instanceof PlayerEntity && !entity.world.isRemote()) {
-			((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("Monoliths Build Ver: 1.5.0"), (false));
+			((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("Monoliths Build Ver: 1.0.0"), (false));
 		}
 		MonolithspublicMod.LOGGER.info("First number is major, second is minor, third is revision");
 	}

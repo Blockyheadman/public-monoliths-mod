@@ -5,18 +5,13 @@ import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
-import net.minecraft.world.World;
-import net.minecraft.util.text.StringTextComponent;
-import net.minecraft.util.text.ITextComponent;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
-import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.block.BlockState;
 
+import net.mcreator.monolithspublic.itemgroup.MonolithsTabItemGroup;
 import net.mcreator.monolithspublic.MonolithspublicModElements;
-
-import java.util.List;
 
 @MonolithspublicModElements.ModElement.Tag
 public class BindingStoneItem extends MonolithspublicModElements.ModElement {
@@ -24,7 +19,7 @@ public class BindingStoneItem extends MonolithspublicModElements.ModElement {
 	public static final Item block = null;
 
 	public BindingStoneItem(MonolithspublicModElements instance) {
-		super(instance, 4);
+		super(instance, 6);
 	}
 
 	@Override
@@ -34,7 +29,7 @@ public class BindingStoneItem extends MonolithspublicModElements.ModElement {
 
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(null).maxStackSize(1).rarity(Rarity.RARE));
+			super(new Item.Properties().group(MonolithsTabItemGroup.tab).maxStackSize(1).rarity(Rarity.RARE));
 			setRegistryName("binding_stone");
 		}
 
@@ -57,12 +52,6 @@ public class BindingStoneItem extends MonolithspublicModElements.ModElement {
 		@OnlyIn(Dist.CLIENT)
 		public boolean hasEffect(ItemStack itemstack) {
 			return true;
-		}
-
-		@Override
-		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
-			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("Sim\u00C8\u203Ai blestemul ceva ce se leag\u00C4\u0192"));
 		}
 	}
 }

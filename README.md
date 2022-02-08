@@ -4,7 +4,7 @@
 ![Monoliths Mod | By Blockyheadman](banner.png)
 
 Welcome, to the Monoliths mod!
-This mod was originally made for the Veia SMP and the personal server only, but I deceided to make a public version completely serperate to the original. Whatever is in th SMP version is limited to the SMP themselves.
+This mod was originally made for the Veia SMP and the personal server only, but I deceided to make a public version completely serperate to the original. Whatever is in the SMP version is limited to the SMP themselves.
 
 Enjoy the mod! You can download it in the mod's [releases](https://github.com/Blockyheadman/public-monoliths-mod/releases) page.
 

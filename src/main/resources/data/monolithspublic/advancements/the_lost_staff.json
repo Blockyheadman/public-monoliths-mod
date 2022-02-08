@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "monolithspublic:lost_staff"
+    },
+    "title": {
+      "translate": "advancements.the_lost_staff.title"
+    },
+    "description": {
+      "translate": "advancements.the_lost_staff.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "the_lost_staff": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "monolithspublic:lost_staff",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 150
+  },
+  "parent": "monolithspublic:part_of_a_whole"
+}

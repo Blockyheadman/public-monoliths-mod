@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "monolithspublic:monolith_stair"
+    },
+    "title": {
+      "translate": "advancements.a_broken_promise.title"
+    },
+    "description": {
+      "translate": "advancements.a_broken_promise.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "a_broken_promise": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 300
+  },
+  "parent": "monolithspublic:praise_the_gods"
+}

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "monolithspublic:lost_fragment"
+    },
+    "1": {
+      "item": "monolithspublic:lost_fragment"
+    },
+    "2": {
+      "item": "monolithspublic:lost_fragment"
+    },
+    "3": {
+      "item": "monolithspublic:lost_fragment"
+    },
+    "4": {
+      "item": "monolithspublic:binding_stone"
+    },
+    "5": {
+      "item": "monolithspublic:lost_fragment"
+    },
+    "6": {
+      "item": "monolithspublic:lost_fragment"
+    },
+    "7": {
+      "item": "monolithspublic:lost_fragment"
+    },
+    "8": {
+      "item": "monolithspublic:lost_fragment"
+    }
+  },
+  "result": {
+    "item": "monolithspublic:lost_gem",
+    "count": 1
+  }
+}

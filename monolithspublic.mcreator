@@ -1,0 +1,673 @@
+{
+  "mod_elements": [
+    {
+      "name": "DeactivatedGemSlot",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deactivated_gem_slot"
+    },
+    {
+      "name": "LostGem",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lost_gem"
+    },
+    {
+      "name": "ActivatedGemSlot",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "activated_gem_slot"
+    },
+    {
+      "name": "LostFragment",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lost_fragment"
+    },
+    {
+      "name": "BindingStone",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "binding_stone"
+    },
+    {
+      "name": "BindingStoneRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "binding_stone_recipe"
+    },
+    {
+      "name": "LostFragmentRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lost_fragment_recipe"
+    },
+    {
+      "name": "LostGemRecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lost_gem_recipe"
+    },
+    {
+      "name": "MonolithStone",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "monolith_stone"
+    },
+    {
+      "name": "ActivateDeactivatedSlot",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "activate_deactivated_slot",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TheLostShrine",
+      "type": "achievement",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_lost_shrine"
+    },
+    {
+      "name": "MonolithStair",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "monolith_stair"
+    },
+    {
+      "name": "PartOfAWhole",
+      "type": "achievement",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "part_of_a_whole"
+    },
+    {
+      "name": "LostStaffHitEntity",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lost_staff_hit_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LostStaffCrafted",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lost_staff_crafted",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LostStaff",
+      "type": "tool",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lost_staff"
+    },
+    {
+      "name": "IPronounceYouBindingAndStone",
+      "type": "achievement",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "i_pronounce_you_binding_and_stone"
+    },
+    {
+      "name": "LostAndFound",
+      "type": "achievement",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lost_and_found"
+    },
+    {
+      "name": "PraiseTheGods",
+      "type": "achievement",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "praise_the_gods"
+    },
+    {
+      "name": "TheLostStaff",
+      "type": "achievement",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_lost_staff"
+    },
+    {
+      "name": "LostStaffRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lost_staff_recipe"
+    },
+    {
+      "name": "BlocksActivatedGemSlot",
+      "type": "loottable",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blocks_activated_gem_slot"
+    },
+    {
+      "name": "ABrokenPromise",
+      "type": "achievement",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_broken_promise"
+    },
+    {
+      "name": "AdvanceABrokenPromise",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advance_a_broken_promise",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WorshipTheGods",
+      "type": "achievement",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "worship_the_gods"
+    },
+    {
+      "name": "ActivatedGemSlotRightClicked",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "activated_gem_slot_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MonolithsBuildVerCommandExecuted",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "monoliths_build_ver_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MonolithsBuildVer",
+      "type": "command",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "monoliths_build_ver"
+    },
+    {
+      "name": "Monoliths",
+      "type": "achievement",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "monoliths"
+    },
+    {
+      "name": "MonolithStoneRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "monolith_stone_recipe"
+    },
+    {
+      "name": "DeactivatedGemSlotRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deactivated_gem_slot_recipe"
+    },
+    {
+      "name": "ArtificialRecreation",
+      "type": "achievement",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "artificial_recreation"
+    },
+    {
+      "name": "ItsNotOverYet",
+      "type": "achievement",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "its_not_over_yet"
+    },
+    {
+      "name": "AdvanceArtificialRecreation",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advance_artificial_recreation",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AdvanceItsNotOverYet",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advance_its_not_over_yet",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AdvancePartOfAWhole",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advance_part_of_a_whole",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AdvanceIPronounceYouBindingAndStone",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advance_i_pronounce_you_binding_and_stone",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AdvanceLostAndFound",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advance_lost_and_found",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DevelopmentDisc1",
+      "type": "musicdisc",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "development_disc_1"
+    },
+    {
+      "name": "DevelopmentDiscs",
+      "type": "tab",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "development_discs"
+    },
+    {
+      "name": "DevelopmentDisc2",
+      "type": "musicdisc",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "development_disc_2"
+    },
+    {
+      "name": "Credits",
+      "type": "keybind",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "credits"
+    },
+    {
+      "name": "ModCredits",
+      "type": "gui",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mod_credits"
+    },
+    {
+      "name": "OpenCreditsGUI",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_credits_gui",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SupportBonus",
+      "type": "loottable",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "support_bonus"
+    },
+    {
+      "name": "ThanksForSupport",
+      "type": "achievement",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thanks_for_support"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "monoliths-development-disc-1",
+      "files": [
+        "disc1"
+      ],
+      "category": "voice",
+      "subtitle": "Monoliths Development Disc 1"
+    },
+    {
+      "name": "monoliths-developement-disc-2",
+      "files": [
+        "devdisc2"
+      ],
+      "category": "voice",
+      "subtitle": "Monoliths Development Disc 2"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.monoliths.binding_stone": "Binding Stone",
+      "advancements.part_of_a_whole.descr": "Only part of what it can do..",
+      "advancements.the_lost_shrine.title": "The Lost Shrine...",
+      "block.monoliths.activated_gem_slot": "Activated Gem Slot",
+      "block.monolithspublic.monolith_stair": "Monolith Stair",
+      "item.monolithspublic.development_disc_2": "Development Disc 2",
+      "key.monoliths.credits": "Mod Credits",
+      "item.monolithspublic.development_disc_1": "Development Disc 1",
+      "advancements.part_of_a_whole.title": "Part Of A Whole",
+      "advancements.praise_the_gods.descr": "What have you done...",
+      "item.monoliths.lost_gem": "Lost Gem",
+      "advancements.a_broken_promise.title": "A Broken Promise",
+      "advancements.i_pronounce_you_binding_and_stone.title": "I Pronounce You, Binding And Stone",
+      "item.monoliths.lost_fragment": "Lost Fragment",
+      "block.monolithspublic.activated_gem_slot": "Activated Gem Slot",
+      "key.monolithspublic.credits": "Mod Credits",
+      "advancements.artificial_recreation.title": "Artificial Recreation",
+      "item.monolithspublic.binding_stone": "Binding Stone",
+      "item.monoliths.development_disc_2": "Development Disc 2",
+      "block.monolithspublic.deactivated_gem_slot": "Deactivated Gem Slot",
+      "block.monolithspublic.monolith_stone": "Monolith Stone",
+      "item.monoliths.development_disc_1": "Development Disc 1",
+      "advancements.the_lost_shrine.descr": "Only one of many..",
+      "advancements.worship_the_gods.descr": "You must pay for your power..",
+      "advancements.thanks_for_support.descr": "Found (Not so secret) GUI",
+      "advancements.monoliths.descr": "Thanks for being around!",
+      "item.monolithspublic.development_disc_1.desc": "Blockyhadman",
+      "advancements.its_not_over_yet.descr": "Remake a gem slot.",
+      "advancements.lost_and_found.descr": "Once whole again..",
+      "advancements.the_lost_staff.title": "The Lost Staff",
+      "item.monolithspublic.lost_fragment": "Lost Fragment",
+      "item.monoliths.development_disc_1.desc": "Blockyhadman",
+      "subtitles.monoliths-developement-disc-2": "Monoliths Development Disc 2",
+      "block.monoliths.monolith_stone": "Monolith Stone",
+      "item.monolithspublic.lost_gem": "Lost Gem",
+      "block.monoliths.deactivated_gem_slot": "Deactivated Gem Slot",
+      "advancements.worship_the_gods.title": "Worship The Gods",
+      "advancements.thanks_for_support.title": "Thanks For The Support! :)",
+      "advancements.artificial_recreation.descr": "Make the stone that started it all..",
+      "subtitles.monoliths-development-disc-1": "Monoliths Development Disc 1",
+      "item.monoliths.development_disc_2.desc": "Blockyheadman",
+      "item.monolithspublic.lost_staff": "Lost Staff",
+      "item.monolithspublic.development_disc_2.desc": "Blockyheadman",
+      "advancements.monoliths.title": "Monoliths!",
+      "itemGroup.tabdevelopment_discs": "Development Discs",
+      "advancements.a_broken_promise.descr": "A worship a day keeps the monsters away..",
+      "advancements.praise_the_gods.title": "Praise The Gods",
+      "advancements.i_pronounce_you_binding_and_stone.descr": "Get the Binding Stone",
+      "advancements.its_not_over_yet.title": "It\u0027s Not Over Yet..",
+      "advancements.the_lost_staff.descr": "A waste?..",
+      "advancements.lost_and_found.title": "Lost And Found",
+      "block.monoliths.monolith_stair": "Monolith Stair",
+      "item.monoliths.lost_staff": "Lost Staff"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "monolithspublic",
+    "modName": "Monoliths | Public Edition",
+    "version": "1.0.0",
+    "description": "A somewhat OP mod. Best used with ProjectE.",
+    "author": "Blockyheadman",
+    "websiteURL": "https://mcreator.net",
+    "license": "Creative Commons Attribution-NonCommercial 3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "icon",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Made by Blockyheadman",
+    "modElementsPackage": "net.mcreator.monolithspublic",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100354000
+}

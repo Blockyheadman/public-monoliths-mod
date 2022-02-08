@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "monolithspublic:lost_gem"
+    },
+    "title": {
+      "translate": "advancements.thanks_for_support.title"
+    },
+    "description": {
+      "translate": "advancements.thanks_for_support.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "thanks_for_support": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 5,
+    "loot": [
+      "monolithspublic:gameplay/support_bonus"
+    ]
+  },
+  "parent": "monolithspublic:monoliths"
+}

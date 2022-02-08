@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "monolithspublic:deactivated_gem_slot"
+    },
+    "title": {
+      "translate": "advancements.its_not_over_yet.title"
+    },
+    "description": {
+      "translate": "advancements.its_not_over_yet.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "its_not_over_yet": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 30
+  },
+  "parent": "monolithspublic:artificial_recreation"
+}

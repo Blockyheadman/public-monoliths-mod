@@ -1,0 +1,23 @@
+{
+  "_fv": 24,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Lost Power",
+    "icon": "lostpower.png",
+    "color": {
+      "value": -6749953,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "LostPowerEffectApplied"
+    },
+    "onExpired": {
+      "name": "LostPowerEffectApplied"
+    }
+  }
+}

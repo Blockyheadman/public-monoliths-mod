@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="Creative Commons Attribution-NonCommercial 3.0"
+
+[[mods]]
+modId="monolithspublic"
+version="1.0.0"
+displayName="Monoliths | Public Edition"
+credits="Made by Blockyheadman"
+displayURL="https://mcreator.net"
+logoFile="logo.png"
+authors="Blockyheadman"
+description='''
+A somewhat OP mod. Best used with ProjectE.
+'''
+
+[[dependencies.monolithspublic]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

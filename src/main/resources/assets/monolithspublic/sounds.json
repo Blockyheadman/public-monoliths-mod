@@ -1,0 +1,22 @@
+{
+  "monoliths-development-disc-1": {
+    "category": "voice",
+    "subtitle": "subtitles.monoliths-development-disc-1",
+    "sounds": [
+      {
+        "name": "monolithspublic:disc1",
+        "stream": false
+      }
+    ]
+  },
+  "monoliths-developement-disc-2": {
+    "category": "voice",
+    "subtitle": "subtitles.monoliths-developement-disc-2",
+    "sounds": [
+      {
+        "name": "monolithspublic:devdisc2",
+        "stream": false
+      }
+    ]
+  }
+}

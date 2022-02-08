@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "monolithspublic:deactivated_gem_slot"
+    },
+    "title": {
+      "translate": "advancements.the_lost_shrine.title"
+    },
+    "description": {
+      "translate": "advancements.the_lost_shrine.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "the_lost_shrine": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 100,
+    "recipes": [
+      "monolithspublic:lost_fragment_recipe"
+    ]
+  },
+  "parent": "monolithspublic:monoliths"
+}

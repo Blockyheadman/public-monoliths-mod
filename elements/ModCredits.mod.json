@@ -1,0 +1,71 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 290,
+    "height": 149,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "lostgem.png",
+          "use1Xscale": false,
+          "name": "lostgem.png",
+          "x": 71,
+          "y": 48
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Monoliths Mod | For Veia SMP",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Monoliths Mod | For Veia SMP",
+          "x": 141,
+          "y": 63
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Made By: Blockyheadman",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Made By: Blockyheadman",
+          "x": 141,
+          "y": 83
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Thanks for all the support on this server!",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Thanks for all the support on this server!",
+          "x": 106,
+          "y": 133
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 10,
+      "sy": 10,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "monolithspublic:activated_gem_slot"
+    },
+    "title": {
+      "translate": "advancements.worship_the_gods.title"
+    },
+    "description": {
+      "translate": "advancements.worship_the_gods.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "worship_the_gods": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 200
+  },
+  "parent": "monolithspublic:praise_the_gods"
+}

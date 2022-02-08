@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "monolithspublic:lost_gem"
+    },
+    "title": {
+      "translate": "advancements.lost_and_found.title"
+    },
+    "description": {
+      "translate": "advancements.lost_and_found.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "lost_and_found": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 200
+  },
+  "parent": "monolithspublic:i_pronounce_you_binding_and_stone"
+}

@@ -1,0 +1,12 @@
+{
+  "_fv": 24,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "0",
+    "keyBindingName": "Mod Credits",
+    "keyBindingCategoryKey": "misc",
+    "onKeyReleased": {
+      "name": "OpenCreditsGUI"
+    }
+  }
+}

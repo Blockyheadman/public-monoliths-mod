@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "monolithspublic:block/monolith_stone"
+    }
+  }
+}

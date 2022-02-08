@@ -1,0 +1,8 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "monolithspublic:blocks/monolithstone",
+    "top": "monolithspublic:blocks/monolithstone",
+    "side": "monolithspublic:blocks/monolithstone"
+  }
+}

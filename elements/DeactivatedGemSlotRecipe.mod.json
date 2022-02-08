@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:MonolithStone"
+      },
+      {
+        "value": "CUSTOM:MonolithStone"
+      },
+      {
+        "value": "CUSTOM:MonolithStone"
+      },
+      {
+        "value": "CUSTOM:MonolithStone"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MonolithStone"
+      },
+      {
+        "value": "CUSTOM:MonolithStone"
+      },
+      {
+        "value": "CUSTOM:MonolithStone"
+      },
+      {
+        "value": "CUSTOM:MonolithStone"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:DeactivatedGemSlot"
+    },
+    "name": "deactivated_gem_slot_recipe",
+    "namespace": "mod"
+  }
+}

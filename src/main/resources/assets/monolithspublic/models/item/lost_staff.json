@@ -1,0 +1,7 @@
+{
+  "parent": "monolithspublic:custom/loststaff",
+  "textures": {
+    "0": "monolithspublic:blocks/staff",
+    "particle": "monolithspublic:items/loststaff"
+  }
+}

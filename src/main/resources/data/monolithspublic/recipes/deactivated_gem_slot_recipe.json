@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "monolithspublic:monolith_stone"
+    },
+    "1": {
+      "item": "monolithspublic:monolith_stone"
+    },
+    "2": {
+      "item": "monolithspublic:monolith_stone"
+    },
+    "3": {
+      "item": "monolithspublic:monolith_stone"
+    },
+    "5": {
+      "item": "monolithspublic:monolith_stone"
+    },
+    "6": {
+      "item": "monolithspublic:monolith_stone"
+    },
+    "7": {
+      "item": "monolithspublic:monolith_stone"
+    },
+    "8": {
+      "item": "monolithspublic:monolith_stone"
+    }
+  },
+  "result": {
+    "item": "monolithspublic:deactivated_gem_slot",
+    "count": 1
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "monolithspublic:block/activated_gem_slot"
+    }
+  }
+}

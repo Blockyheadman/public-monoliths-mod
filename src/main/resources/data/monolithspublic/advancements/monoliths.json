@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "monolithspublic:textures/advancementbc.png",
+    "icon": {
+      "item": "monolithspublic:activated_gem_slot"
+    },
+    "title": {
+      "translate": "advancements.monoliths.title"
+    },
+    "description": {
+      "translate": "advancements.monoliths.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "monoliths": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

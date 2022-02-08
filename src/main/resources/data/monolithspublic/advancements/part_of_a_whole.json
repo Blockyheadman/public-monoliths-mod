@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "monolithspublic:lost_fragment"
+    },
+    "title": {
+      "translate": "advancements.part_of_a_whole.title"
+    },
+    "description": {
+      "translate": "advancements.part_of_a_whole.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "part_of_a_whole": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 100,
+    "recipes": [
+      "monolithspublic:binding_stone_recipe"
+    ]
+  },
+  "parent": "monolithspublic:the_lost_shrine"
+}

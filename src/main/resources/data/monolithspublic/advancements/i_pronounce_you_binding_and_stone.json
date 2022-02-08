@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "monolithspublic:binding_stone"
+    },
+    "title": {
+      "translate": "advancements.i_pronounce_you_binding_and_stone.title"
+    },
+    "description": {
+      "translate": "advancements.i_pronounce_you_binding_and_stone.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "i_pronounce_you_binding_and_stone": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 100,
+    "recipes": [
+      "monolithspublic:lost_gem_recipe"
+    ]
+  },
+  "parent": "monolithspublic:part_of_a_whole"
+}

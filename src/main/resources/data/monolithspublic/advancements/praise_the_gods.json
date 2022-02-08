@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "monolithspublic:activated_gem_slot"
+    },
+    "title": {
+      "translate": "advancements.praise_the_gods.title"
+    },
+    "description": {
+      "translate": "advancements.praise_the_gods.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "praise_the_gods": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 300
+  },
+  "parent": "monolithspublic:lost_and_found"
+}

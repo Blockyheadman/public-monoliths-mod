@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "monolithspublic:monolith_stone"
+    },
+    "title": {
+      "translate": "advancements.artificial_recreation.title"
+    },
+    "description": {
+      "translate": "advancements.artificial_recreation.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "artificial_recreation": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 25
+  },
+  "parent": "monolithspublic:a_broken_promise"
+}

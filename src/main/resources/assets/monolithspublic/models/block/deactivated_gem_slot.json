@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "monolithspublic:blocks/unpoweredgemslot",
+    "up": "monolithspublic:blocks/unpoweredgemslot",
+    "north": "monolithspublic:blocks/unpoweredgemslot",
+    "east": "monolithspublic:blocks/unpoweredgemslot",
+    "south": "monolithspublic:blocks/unpoweredgemslot",
+    "west": "monolithspublic:blocks/unpoweredgemslot",
+    "particle": "monolithspublic:blocks/unpoweredgemslot"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "monolithspublic:blocks/activatedgemslot",
+    "up": "monolithspublic:blocks/activatedgemslot",
+    "north": "monolithspublic:blocks/activatedgemslot",
+    "east": "monolithspublic:blocks/activatedgemslot",
+    "south": "monolithspublic:blocks/activatedgemslot",
+    "west": "monolithspublic:blocks/activatedgemslot",
+    "particle": "monolithspublic:blocks/activatedgemslot"
+  }
+}

@@ -46,10 +46,6 @@ public class MonolithspublicModElements {
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 
 	public MonolithspublicModElements() {
-		sounds.put(new ResourceLocation("monolithspublic", "monoliths-development-disc-1"),
-				new net.minecraft.util.SoundEvent(new ResourceLocation("monolithspublic", "monoliths-development-disc-1")));
-		sounds.put(new ResourceLocation("monolithspublic", "monoliths-developement-disc-2"),
-				new net.minecraft.util.SoundEvent(new ResourceLocation("monolithspublic", "monoliths-developement-disc-2")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("monolithspublic").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

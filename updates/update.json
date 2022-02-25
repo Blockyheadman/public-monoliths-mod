@@ -1,4 +1,13 @@
 {
-  // URL to display in ModList GUI when an update is avalible
-  "homepage": "https://mcreator.net/modification/83860/monoliths-public-version"
+	// URL to display in ModList GUI when an update is avalible
+	"homepage" : "https://mcreator.net/modification/83860/monoliths-public-version",
+	"promos" : {
+		"1.16.5-latest" : "1.0.0"
+		"1.16.5-recomended" : "1.0.0"
+		},
+	"1.16.5" : {
+		// The changelog will be a ordered list of all entries in this this whos key is >= CURRENT_VERSION && <= TARGET version
+		"version" : "Changelog since last build"
+		"version2" : "Changelog since last build"
+	}
 }

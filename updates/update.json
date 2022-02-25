@@ -7,7 +7,7 @@
 		},
 	"1.16.5" : {
 		// The changelog will be a ordered list of all entries in this this whos key is >= CURRENT_VERSION && <= TARGET version
-		"version" : "Changelog since last build"
+		"1.0.0" : "Made Monoliths mod public! Added everything!"
 		"version2" : "Changelog since last build"
 	}
 }
